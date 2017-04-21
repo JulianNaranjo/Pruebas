@@ -1,0 +1,546 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/calcgd_guardian.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>calcular gol diferencia</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given estoy en la pagina con la tabla de la premier league</string>
+              <string>When Calculo y valido dif gol</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>calcgd_guardian.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>calcular gol diferencia</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given estoy en la pagina con la tabla de la premier league</string>
+              <string>When Calculo y valido dif gol</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/calcgd_guardian.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given estoy en la pagina con la tabla de la premier league</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given estoy en la pagina con la tabla de la premier league</parametrisedStep>
+                  <durationInMillis>64560</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When Calculo y valido dif gol</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When Calculo y valido dif gol</parametrisedStep>
+                  <durationInMillis>1794</durationInMillis>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>calcular gol diferencia</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given estoy en la pagina con la tabla de la premier league</string>
+                <string>When Calculo y valido dif gol</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>68112</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>calcular gol diferencia</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given estoy en la pagina con la tabla de la premier league</string>
+          <string>When Calculo y valido dif gol</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/calcgd_guardian.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given estoy en la pagina con la tabla de la premier league</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given estoy en la pagina con la tabla de la premier league</parametrisedStep>
+              <durationInMillis>64560</durationInMillis>
+            </successful>
+            <successful>
+              <step>When Calculo y valido dif gol</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When Calculo y valido dif gol</parametrisedStep>
+              <durationInMillis>1794</durationInMillis>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>calcular gol diferencia</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given estoy en la pagina con la tabla de la premier league</string>
+            <string>When Calculo y valido dif gol</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

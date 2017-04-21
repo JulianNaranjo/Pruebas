@@ -1,0 +1,3 @@
+<story path="stories/calcgd_guardian.story" title="">
+<scenario keyword="Scenario:" title="calcular gol diferencia">
+<step outcome="successful">Given estoy en la pagina con la tabla de la premier league</step>

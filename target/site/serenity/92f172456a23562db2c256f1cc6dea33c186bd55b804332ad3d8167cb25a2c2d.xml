@@ -1,0 +1,28 @@
+<acceptance-test-run title="calcular gol diferencia" name="calcular gol diferencia" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="67917" timestamp="2017-04-21T15:51:48.998-05:00" session-id="4c6a4c8f297e45fddc65a758814254bd">
+  <user-story id="calcgd_guardian" name="Calcgd guardian" path="stories/calcgd_guardian.story"/>
+  <tags>
+    <tag name="Calcgd guardian" type="story"/>
+  </tags>
+  <test-group name="Given estoy en la pagina con la tabla de la premier league" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9e9cc9db372c43304afec1c5e75affb3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="64231">
+      <screenshots>
+        <screenshot image="db331d1ac528d0e424d8cecf4e027306.png"/>
+      </screenshots>
+      <description>Abrir pag</description>
+    </test-step>
+  </test-group>
+  <test-group name="When Calculo y valido dif gol" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9e9cc9db372c43304afec1c5e75affb3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1794">
+      <screenshots>
+        <screenshot image="9e9cc9db372c43304afec1c5e75affb3.png"/>
+      </screenshots>
+      <description>Calc element GD</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
