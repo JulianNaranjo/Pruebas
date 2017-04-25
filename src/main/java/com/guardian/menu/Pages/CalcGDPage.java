@@ -7,9 +7,7 @@ import net.thucydides.core.pages.PageObject;
 import org.hamcrest.MatcherAssert;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by julinave on 21/04/2017.
- */
+
 @DefaultUrl("https://www.theguardian.com/football/tables")
 public class CalcGDPage extends PageObject {
     private static String stXpath=".//*[@id='article']/div/div/div[1]/div[1]/div/div/table/tbody";
