@@ -7,6 +7,9 @@ import net.thucydides.core.pages.PageObject;
 import org.hamcrest.MatcherAssert;
 import org.jbehave.core.model.ExamplesTable;
 import org.openqa.selenium.WebDriver;
+import org.yecht.Data;
+
+import java.util.Map;
 
 import java.util.Map;
 
@@ -28,8 +31,21 @@ public class CalcGDPage extends PageObject {
             int DFc = GF-GC;
 
             MatcherAssert.assertThat("Los valores no son iguales",DIF==DFc);
-
         }
+    }
+
+    public int calcularSumaPerdidos(){
+        int lostMatches = 0;
+        for (int i=1;i<=4;i++){
+            lostMatches += Integer.parseInt(GetElements(i,6).getText());
+        }
+        return lostMatches;
+    }
+
+    public void validarPerdidos(ExamplesTable tableLost, int sumaPerdidos){
+        Map<String,String> dataLost = tableLost.getRow(0);
+        int lostTableValue = Integer.parseInt(dataLost.get("lost"));
+        MatcherAssert.assertThat("Los valores no coinciden",sumaPerdidos==lostTableValue);
     }
 
     public int CalcWin(){
