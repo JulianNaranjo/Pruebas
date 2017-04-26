@@ -7,17 +7,13 @@ import net.thucydides.core.pages.PageObject;
 import org.hamcrest.MatcherAssert;
 import org.jbehave.core.model.ExamplesTable;
 import org.openqa.selenium.WebDriver;
-import org.yecht.Data;
-
 import java.util.Map;
-
-import java.util.Map;
-
 
 @DefaultUrl("https://www.theguardian.com/football/tables")
 public class CalcGDPage extends PageObject {
     private static String stXpath=".//*[@id='article']/div/div/div[1]/div[1]/div/div/table/tbody";
     private int lostMatches = 0;
+    private int SWin = 0;
 
     public CalcGDPage (WebDriver driver){
         super (driver);
@@ -47,22 +43,17 @@ public class CalcGDPage extends PageObject {
         MatcherAssert.assertThat("Los valores no coinciden",lostMatches==lostTableValue);
     }
 
-    public int CalcWin(){
-        int SWin = 0;
+    public void CalcWin(){
         for (int i=1;i<=4;i++){
             int WCh = Integer.parseInt(GetElements(i,4).getText());
             SWin=SWin+WCh;
         }
-
-        return SWin;
     }
 
-    public void ValSuma(int stSuma, ExamplesTable dtTable){
+    public void ValSuma(ExamplesTable dtTable){
         Map<String,String> tbData=dtTable.getRow(0);
         int Valsumatb = Integer.parseInt(tbData.get("cantwin"));
-        MatcherAssert.assertThat("La suma no coincide", stSuma==Valsumatb);
-
-
+        MatcherAssert.assertThat("La suma no coincide", SWin==Valsumatb);
     }
 
     private WebElementFacade GetElements (int row, int column){

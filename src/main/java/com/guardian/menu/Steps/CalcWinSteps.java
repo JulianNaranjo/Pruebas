@@ -19,13 +19,13 @@ public class CalcWinSteps extends ScenarioSteps {
     }
 
     @Step
-    public int CalcWin(){
-        return calcGDPage.CalcWin();
+    public void CalcWin(){
+        calcGDPage.CalcWin();
     }
 
     @Step
-    public void ValSuma(int stSuma, ExamplesTable dtTable){
-        calcGDPage.ValSuma(stSuma,dtTable);
+    public void ValSuma( ExamplesTable dtTable){
+        calcGDPage.ValSuma(dtTable);
     }
 
 }
