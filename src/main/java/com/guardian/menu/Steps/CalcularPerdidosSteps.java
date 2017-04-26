@@ -12,13 +12,13 @@ public class CalcularPerdidosSteps extends ScenarioSteps {
     private CalcGDPage calcGDPage;
 
     @Step
-    public int calcularSumaPerdidos(){
-        return calcGDPage.calcularSumaPerdidos();
+    public void calcularSumaPerdidos(){
+         calcGDPage.calcularSumaPerdidos();
     }
 
     @Step
-    public void validarPerdidos(ExamplesTable dataLost, int sumaPerdidos){
-        calcGDPage.validarPerdidos(dataLost,sumaPerdidos);
+    public void validarPerdidos(ExamplesTable dataLost){
+        calcGDPage.validarPerdidos(dataLost);
     }
 
 }

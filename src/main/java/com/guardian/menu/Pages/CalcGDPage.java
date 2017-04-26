@@ -17,6 +17,7 @@ import java.util.Map;
 @DefaultUrl("https://www.theguardian.com/football/tables")
 public class CalcGDPage extends PageObject {
     private static String stXpath=".//*[@id='article']/div/div/div[1]/div[1]/div/div/table/tbody";
+    private int lostMatches = 0;
 
     public CalcGDPage (WebDriver driver){
         super (driver);
@@ -34,18 +35,16 @@ public class CalcGDPage extends PageObject {
         }
     }
 
-    public int calcularSumaPerdidos(){
-        int lostMatches = 0;
-        for (int i=1;i<=4;i++){
-            lostMatches += Integer.parseInt(GetElements(i,6).getText());
+    public void calcularSumaPerdidos(){
+        for (int i=1;i<=4;i++) {
+            lostMatches += Integer.parseInt(GetElements(i, 6).getText());
         }
-        return lostMatches;
     }
 
-    public void validarPerdidos(ExamplesTable tableLost, int sumaPerdidos){
+    public void validarPerdidos(ExamplesTable tableLost){
         Map<String,String> dataLost = tableLost.getRow(0);
         int lostTableValue = Integer.parseInt(dataLost.get("lost"));
-        MatcherAssert.assertThat("Los valores no coinciden",sumaPerdidos==lostTableValue);
+        MatcherAssert.assertThat("Los valores no coinciden",lostMatches==lostTableValue);
     }
 
     public int CalcWin(){

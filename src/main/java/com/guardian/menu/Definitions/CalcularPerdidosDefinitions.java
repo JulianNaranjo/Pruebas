@@ -9,7 +9,6 @@ import org.jbehave.core.annotations.When;
 import org.jbehave.core.model.ExamplesTable;
 
 public class CalcularPerdidosDefinitions {
-    private int sumaPerdidos;
 
     @Steps
     private CalcGDSteps calcGDSteps;
@@ -24,11 +23,11 @@ public class CalcularPerdidosDefinitions {
 
     @When("sumo los partidos perdidos de cada equipo")
     public void calcularSumaPerdidos(){
-        sumaPerdidos = calcularPerdidosSteps.calcularSumaPerdidos();
+         calcularPerdidosSteps.calcularSumaPerdidos();
     }
 
     @Then("la suma debe resultar igual al dato en la tabla $dataLost")
     public void ValidarPerdidos(ExamplesTable dataLost){
-        calcularPerdidosSteps.validarPerdidos(dataLost,sumaPerdidos);
+        calcularPerdidosSteps.validarPerdidos(dataLost);
     }
 }
