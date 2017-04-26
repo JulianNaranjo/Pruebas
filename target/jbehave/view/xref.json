@@ -2,7 +2,7 @@
   "stories": [
     {
       "story": {
-        "path": "stories/calcgd_guardian.story",
+        "path": "stories/calc_win.story",
         "description": {
           "descriptionAsString": ""
         },
@@ -70,7 +70,7 @@
         },
         "scenarios": [
           {
-            "title": "calcular gol diferencia",
+            "title": "partidos ganados",
             "meta": {
               "properties": []
             },
@@ -161,12 +161,13 @@
               "trim": true
             },
             "steps": [
-              "Given estoy en la pagina con la tabla de la premier league",
-              "When Calculo y valido dif gol"
+              "Given estoy en la pagina con la tabla de la premier leagu",
+              "When sumo la cantidad de partidos ganados",
+              "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |"
             ]
           }
         ],
-        "name": "calcgd_guardian.story"
+        "name": "calc_win.story"
       },
       "localizedNarrative": "As a \nI want to \nSo that ",
       "allowed": true,
@@ -175,7 +176,7 @@
       "scenarios": [
         {
           "scenario": {
-            "title": "calcular gol diferencia",
+            "title": "partidos ganados",
             "meta": {
               "properties": []
             },
@@ -266,11 +267,12 @@
               "trim": true
             },
             "steps": [
-              "Given estoy en la pagina con la tabla de la premier league",
-              "When Calculo y valido dif gol"
+              "Given estoy en la pagina con la tabla de la premier leagu",
+              "When sumo la cantidad de partidos ganados",
+              "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |"
             ]
           },
-          "storyPath": "stories/calcgd_guardian.story",
+          "storyPath": "stories/calc_win.story",
           "allowed": true,
           "normalPerformableScenario": {
             "parameters": [],
@@ -282,16 +284,22 @@
               "matches": [],
               "results": [
                 {
-                  "step": "Given estoy en la pagina con la tabla de la premier league",
+                  "step": "Given estoy en la pagina con la tabla de la premier leagu",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "Given estoy en la pagina con la tabla de la premier league",
-                  "durationInMillis": 64560
+                  "parametrisedStep": "Given estoy en la pagina con la tabla de la premier leagu",
+                  "durationInMillis": 14823
                 },
                 {
-                  "step": "When Calculo y valido dif gol",
+                  "step": "When sumo la cantidad de partidos ganados",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "When Calculo y valido dif gol",
-                  "durationInMillis": 1794
+                  "parametrisedStep": "When sumo la cantidad de partidos ganados",
+                  "durationInMillis": 962
+                },
+                {
+                  "step": "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then valido la cantidad de partidos ganados\r\n［|cantwin|\r\n|84     |］",
+                  "durationInMillis": 411
                 }
               ]
             },
@@ -302,7 +310,7 @@
               "properties": []
             },
             "scenario": {
-              "title": "calcular gol diferencia",
+              "title": "partidos ganados",
               "meta": {
                 "properties": []
               },
@@ -393,8 +401,9 @@
                 "trim": true
               },
               "steps": [
-                "Given estoy en la pagina con la tabla de la premier league",
-                "When Calculo y valido dif gol"
+                "Given estoy en la pagina con la tabla de la premier leagu",
+                "When sumo la cantidad de partidos ganados",
+                "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |"
               ]
             }
           },
@@ -405,7 +414,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 68112
+        "durationInMillis": 17819
       },
       "givenStory": false
     }
@@ -413,7 +422,7 @@
   "scenarios": [
     {
       "scenario": {
-        "title": "calcular gol diferencia",
+        "title": "partidos ganados",
         "meta": {
           "properties": []
         },
@@ -504,11 +513,12 @@
           "trim": true
         },
         "steps": [
-          "Given estoy en la pagina con la tabla de la premier league",
-          "When Calculo y valido dif gol"
+          "Given estoy en la pagina con la tabla de la premier leagu",
+          "When sumo la cantidad de partidos ganados",
+          "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |"
         ]
       },
-      "storyPath": "stories/calcgd_guardian.story",
+      "storyPath": "stories/calc_win.story",
       "allowed": true,
       "normalPerformableScenario": {
         "parameters": [],
@@ -520,16 +530,22 @@
           "matches": [],
           "results": [
             {
-              "step": "Given estoy en la pagina con la tabla de la premier league",
+              "step": "Given estoy en la pagina con la tabla de la premier leagu",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "Given estoy en la pagina con la tabla de la premier league",
-              "durationInMillis": 64560
+              "parametrisedStep": "Given estoy en la pagina con la tabla de la premier leagu",
+              "durationInMillis": 14823
             },
             {
-              "step": "When Calculo y valido dif gol",
+              "step": "When sumo la cantidad de partidos ganados",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "When Calculo y valido dif gol",
-              "durationInMillis": 1794
+              "parametrisedStep": "When sumo la cantidad de partidos ganados",
+              "durationInMillis": 962
+            },
+            {
+              "step": "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then valido la cantidad de partidos ganados\r\n［|cantwin|\r\n|84     |］",
+              "durationInMillis": 411
             }
           ]
         },
@@ -540,7 +556,7 @@
           "properties": []
         },
         "scenario": {
-          "title": "calcular gol diferencia",
+          "title": "partidos ganados",
           "meta": {
             "properties": []
           },
@@ -631,8 +647,9 @@
             "trim": true
           },
           "steps": [
-            "Given estoy en la pagina con la tabla de la premier league",
-            "When Calculo y valido dif gol"
+            "Given estoy en la pagina con la tabla de la premier leagu",
+            "When sumo la cantidad de partidos ganados",
+            "Then valido la cantidad de partidos ganados\r\n|cantwin|\r\n|84     |"
           ]
         }
       },
