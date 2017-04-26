@@ -11,7 +11,6 @@ import org.jbehave.core.model.ExamplesTable;
  * Created by julinave on 26/04/2017.
  */
 public class CalcWinDefinitions {
-    private int iTotalSuma;
 
     @Steps
     CalcWinSteps calcWinSteps;
@@ -23,11 +22,11 @@ public class CalcWinDefinitions {
 
     @When("sumo la cantidad de partidos ganados")
     public void CalcWin(){
-        iTotalSuma=calcWinSteps.CalcWin();
+        calcWinSteps.CalcWin();
     }
 
     @Then("valido la cantidad de partidos ganados $dtTable")
     public void ValSuma(ExamplesTable dtTable){
-        calcWinSteps.ValSuma(iTotalSuma,dtTable);
+        calcWinSteps.ValSuma(dtTable);
     }
 }
