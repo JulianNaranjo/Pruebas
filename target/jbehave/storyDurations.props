@@ -1,6 +1,0 @@
-#org.jbehave.core.embedder.StoryManager
-#Fri Apr 21 15:52:58 COT 2017
-threads=1
-total=71000
-threadAverage=71000
-stories/calcgd_guardian.story=71000
